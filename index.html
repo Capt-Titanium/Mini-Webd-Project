@@ -10,16 +10,137 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Damion&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">   
     <!--specifying bootstrap class we are going to use-->
 	<title>Speak Up</title>
 </head>
 <body>
-	<h1>Heart Key</h1>
-	<p>welcome suckas!</p>
-	<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto brandname" href="#">Discussio</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                
+            </ul>
+        </div>
+        </div>
+        
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-4 offset-5 
+            col-sm-4 offset-sm-5 align-items-center">
+               <p class="heading">Home</p>
+               <hr>
+            </div>
+        </div>
+
+
+        <div class="row row-content">
+           <div class="col-6">
+              <h3>What is Discussio...?</h3>
+              <p>whatsapp waali bakwaas Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           </div>
+            <div class="col-6 col-md-4">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="first name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="last name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="telnum" class=" col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area Code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
+                    </div>
+                    
+                    <div class="from-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">
+                             let's go!   
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
+       
+    </div>
+    <hr>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                      Room number 5383, BH-5, Indian Institute Of Information Technology Allahabad, Jhalwa, Prayagraj, Uttar Pradesh, India<br>
+                      <span class="fa fa-phone fa-lg"></span> : +91 7668278339<br>
+                      <span class="fa fa-home fa-fax"></span> : not applicable<br><span class="fa fa-envelope fa-lg"></span> : <a href="mailto:iec2019024@iiita.ac.in">kittu@iita.ac.in</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-github" href="http://github.com/"><i class="fa fa-github fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright <strong>5383 bois</strong></p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
