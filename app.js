@@ -20,6 +20,14 @@ app.get("/",function(req,res){
     res.render("index");
 });
 
+app.get("/about",function(req, res){
+    res.render("about");
+});
+
+app.post("/index",function(re1,res){
+    res.send("Site Under Construction, Incovenience is deeply regretted");
+});
+
 //Listening to localhost
 app.listen(1000, function(){
     console.log("Server is running");
