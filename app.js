@@ -23,4 +23,4 @@ app.get("/",function(req,res){
 //Listening to localhost
 app.listen(1000, function(){
     console.log("Server is running");
-})
+});
