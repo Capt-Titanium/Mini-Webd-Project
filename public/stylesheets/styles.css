@@ -1,0 +1,42 @@
+.navbar-dark {
+	background-color: #512dab;
+}
+
+.brandname {
+	font-size: 200%;
+	font-family: 'Damion', cursive;
+	padding: 0 50px 0 0px;
+}
+
+body {
+	background-image: url("back.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+	color: floralwhite;
+	font-size: 18px;
+	font-family: 'Crimson Text', serif;
+}
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
+	background: #9575cd;
+	color: floralwhite;
+}
+
+.footer {
+	color: black;
+	background: #d3c4f2;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+
+}
+
+.heading{
+	font-size: 300%;
+	font-weight: bolder;
+	padding-top: 10px;
+}
